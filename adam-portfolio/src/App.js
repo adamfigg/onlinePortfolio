@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import FrontPage from './components/FrontPage/FrontPage.js';
 import NavBar from './components/NavBar/NavBar.js';
+import Portfolio from './components/Portfolio/Portfolio.js';
+import Resume from './components/Resume/Resume.js';
 
 
 class App extends Component {
@@ -16,6 +18,8 @@ class App extends Component {
 
         <NavBar/>
         <FrontPage/>
+        <Portfolio/>
+        <Resume/>
 
       </div>
     );
