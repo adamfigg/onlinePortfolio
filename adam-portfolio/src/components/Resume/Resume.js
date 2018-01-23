@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import AdamFiggatWebDeveloper from './AdamFiggatWebDeveloper.pdf';
+
 
 class Resume extends Component {
 
@@ -6,9 +8,10 @@ class Resume extends Component {
         return (
 
             <div class="Resume">
-              <h1>Resume</h1>
+              <p className="Header">Resume</p>
               <h3>Feel free to download a copy of my resume featuring my skills and experience.</h3>
               <p>Image of the resume here...</p>
+
             </div>
 
         );
