@@ -9,7 +9,7 @@ class NavBar extends Component {
                 <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Let's Talk</a>
             </div>
 
         );
