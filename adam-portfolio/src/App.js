@@ -5,6 +5,7 @@ import FrontPage from './components/FrontPage/FrontPage.js';
 import NavBar from './components/NavBar/NavBar.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Resume from './components/Resume/Resume.js';
+import BottomNavBar from './components/BottomNavBar/BottomNavBar.js';
 
 
 
@@ -21,6 +22,7 @@ class App extends Component {
         <FrontPage/>
         <Portfolio/>
         <Resume/>
+        <BottomNavBar/>
 
       </div>
     );
