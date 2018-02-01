@@ -289,17 +289,31 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
 
 .navBar {
   font-size: 2rem;
-  background-color:black;
+  background-color:#f44336;
  position: sticky;
-  color: white;
   text-align: center;
   width: 100%;
-  height: 120px;
+  height: 80px;
    border: 1px solid #e7e7e7;
    z-index: 9;
    top: 0;
+   padding: 20px 0px 8px 0px;
 
 }
+
+a {
+     background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  /*color: white;
+  display: flex;
+  justify-content: space-between;*/
+}
+
+
 
 
 .Profile-pic {
