@@ -18,6 +18,7 @@ class App extends Component {
           <h1 className="App-title">Adam Figgat's Web Dev Portfolio</h1>
         </header>
 
+
         <NavBar/>
         <FrontPage/>
         <Portfolio/>

@@ -6,7 +6,7 @@ class BottomNavBar extends Component {
     render() {
         return (
 
-            <div className="bottomNavBar">
+            <div id="contact"className="bottomNavBar">
                 <article id="wrap">
                 <p>This is where i will put links to sites and social media stuff</p>
 	<article id="lightings">

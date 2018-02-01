@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class NavBar extends Component {
 
@@ -6,10 +7,10 @@ class NavBar extends Component {
         return (
 
             <div id="nav" className="navBar">
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#resume">Resume</a>
-                <a href="#contact">Let's Talk</a>
+                <AnchorLink offset='120' href="#home">Home</AnchorLink>
+                <AnchorLink offset='120' href="#projects">Projects</AnchorLink>
+                <AnchorLink offset='120' href="#resume">Resume</AnchorLink>
+                <AnchorLink offset='120' href="#contact">Let's Talk</AnchorLink>
                 
             </div>
 

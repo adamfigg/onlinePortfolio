@@ -10,7 +10,7 @@ class Portfolio extends Component {
         return (
             <div>
                 <div>
-                   <p className="Header">Web Development Projects</p>
+                   <p id="projects" className="Header">Web Development Projects</p>
                     <h3>Overwatch Hero App – Tech used: React, Nodejs, SQL, jQuery, and Bootstrap</h3>
                     <p className="Portfolio-details">
                         Implemented​ ​a​ ​user​ ​experience​ ​that​ ​makes​ ​active​ ​calls​ ​to​ ​an​ ​outside​ ​API​ ​within​ ​a​ ​React​ ​based​ ​app
