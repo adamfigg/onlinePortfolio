@@ -7,10 +7,10 @@ class NavBar extends Component {
         return (
 
             <div id="nav" className="navBar">
-                <AnchorLink offset='120' href="#home">Home</AnchorLink>
-                <AnchorLink offset='120' href="#projects">Projects</AnchorLink>
-                <AnchorLink offset='120' href="#resume">Resume</AnchorLink>
-                <AnchorLink offset='120' href="#contact">Let's Talk</AnchorLink>
+                <AnchorLink offset='100' href="#home">Home</AnchorLink>
+                <AnchorLink offset='100' href="#projects">Projects</AnchorLink>
+                <AnchorLink offset='100' href="#resume">Resume</AnchorLink>
+                <AnchorLink offset='100' href="#contact">Let's Talk</AnchorLink>
                 
             </div>
 
