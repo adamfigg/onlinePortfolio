@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AdamFiggatWebDeveloper from './AdamFiggatWebDeveloper.pdf';
-
+import { Document } from 'react-pdf'
 
 class Resume extends Component {
 
@@ -12,6 +12,10 @@ class Resume extends Component {
               <h3>Feel free to download a copy of my resume featuring my skills and experience.</h3>
               <p>Image of the resume here...</p>
 
+               <Document
+          file="AdamFiggatWebDeveloper.pdf"
+          onLoadSuccess={this.onDocumentLoad}>
+          </Document>
             </div>
 
         );
