@@ -8,13 +8,12 @@ import Resume from './components/Resume/Resume.js';
 import BottomNavBar from './components/BottomNavBar/BottomNavBar.js';
 
 
-
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <h1 className="App-title">Adam Figgat's Web Dev Portfolio</h1>
         </header>
 

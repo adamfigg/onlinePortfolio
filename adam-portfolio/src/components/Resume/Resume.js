@@ -9,13 +9,9 @@ class Resume extends Component {
 
             <div  className="Resume">
               <p id="resume" className="Header">Resume</p>
-              <h3>Feel free to download a copy of my resume featuring my skills and experience.</h3>
-              <p>Image of the resume here...</p>
+          
+              <embed src={AdamFiggatWebDeveloper} type="application/pdf" width="100%" height="600px" />
 
-               <Document
-          file="AdamFiggatWebDeveloper.pdf"
-          onLoadSuccess={this.onDocumentLoad}>
-          </Document>
             </div>
 
         );
