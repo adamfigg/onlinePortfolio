@@ -6,18 +6,18 @@ class Resume extends Component {
 
     render() {
         return (
+            <div className="ResumeSpacer">
+                <div className="Resume">
+                    <p id="resume" className="Header">Resume</p>
 
-            <div  className="Resume">
-              <p id="resume" className="Header">Resume</p>
-          
-            <div>
-               <img src="AdamFiggatWebDeveloper"/> 
+                    <div>
+                        <img src="AdamFiggatWebDeveloper" />
+                    </div>
+
+                    {/*<embed className="PDF" src={AdamFiggatWebDeveloper}/>*/}
+
+                </div>
             </div>
-
-              {/*<embed className="PDF" src={AdamFiggatWebDeveloper}/>*/}
-
-            </div>
-
         );
     }
 }

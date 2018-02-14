@@ -5,7 +5,7 @@ class FrontPage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="AboutMe">
                 <p  id="home" className="Header">About Adam</p>
                 <img className="Profile-pic" src={profilePicture}/>
                 <p className="App-intro">

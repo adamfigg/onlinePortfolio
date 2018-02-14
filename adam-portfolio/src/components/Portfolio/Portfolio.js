@@ -8,7 +8,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div>
+            <div className="ProjectsSpacer">
                 <div>
                    <p id="projects" className="Header">Web Development Projects</p>
                     <h3>Overwatch Hero App – Tech used: React, Nodejs, SQL, jQuery, and Bootstrap</h3>
@@ -47,9 +47,7 @@ class Portfolio extends Component {
                         <li>Integrated​ ​Google​ ​Maps​ ​and​ ​Flight​ ​Tracker​ ​APIs​ ​to​ ​enable​ ​travel​ ​planning​ ​for​ ​mobile​ ​and​ ​online​ ​users</li>
                         <li>Acted​ ​as​ ​project​ ​manager​ ​by​ ​leading​ ​paired​ ​programming​ ​time​ ​to​ ​keep​ ​team​ ​on​ ​track​ ​to​ ​reach​ ​MVP​ ​on​ ​time</li>
                     </ul>
-
                     <img className="Project-images" src={Roominder}/>
-
                 </div>
 
             </div>
